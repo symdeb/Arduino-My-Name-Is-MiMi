@@ -1,21 +1,20 @@
 
-# My Name is Mini (The secret life of plants)
+# My Name is Mimi (The secret life of plants)
 
 This was a final semester project for students in Industrial Design class for Installation Art.
 
-This design uses 7 Arduinos and 7 ULN2003 board and motors. One Arduino is the "master" and the other 6 are  slaves. The number of slaves is unlimited as long as the output of the master can drive the inputs of the slaves. Each motor consumes around 500mA. The power supply should be able to power the arduino's and the motors.
+This design uses 7 Arduinos and 7 ULN2003 board and motors. One Arduino is the "master" and the other 6 are  slaves. The number of slaves is unlimited as long as the output of the master can drive the inputs of the slaves. Each motor consumes around 500mA. One external 110V to 9V/4A power supply powers all the hardware.
 
-The slaves turn a stepper motor fully to the left or fully the right depending on the input pin.
-The speed is defined in the slaves code. 
+The slaves turn a stepper motor e left or to the right at a certain speed and for a certain time. The direction is defines by the staes of the input pin. The speed and time is defined in each of the slave's code. 
 
 The master uses a ultraonic distance sensor to measure the distance of an object (here a human) in front of the
 a cabinet full of plants and 7 leaves that are controlled by the motors. 
 
 Each leaf is connected with a wire to one of the motors. when the wire is relaxes the leaf falls back into a rest position. 
 
-The major challenge in this design were:
+The major challenges experienced during development were:
 
-1. To reduce any friction to the wire. A too high friction causes the wire to be stuck when the leave was falling back.
+1. To reduce any friction to the wire. A too high friction causes the wire to be stuck when the leaf was falling back.
 
 2. The instability of the ultrsonic sensor. A large piece of  the code is used to "debounce" incorrect values.
  
@@ -26,9 +25,9 @@ The distances defined are:
 - Too close       --- Mimi is shy and her leaves close 
 - Just right      --- Mimi introduces herself
 
-The MP3 player will play an MP3 file ONCE once a change in one of these 4 distances is detected.
+The MP3 player will play an MP3 file only ONCE upon detection of a change in one of these 4 distances.
 
-The Arduino are powered by a 4A 9~12V power supply connected to each of the Arduino's power connector.  The Arduino power regulator converts 9-12V to 5V and this 5V powers the motors, MP3 player and distance sensor.
+The Arduino's , motors, sensor and MP3 player are powered by one 4A 9 power supply. The 9V connects connects to each of the Arduino's power connector.  The Arduino power regulator converts 9V to 5V and this 5V powers the motors, MP3 player and distance sensor.
 
 ** Material List **
 
@@ -52,4 +51,7 @@ by Stevie Wonder.
 [sensor]: https://www.sparkfun.com/products/15569
 [music]: https://www.discogs.com/Stevie-Wonder-Stevie-Wonders-Journey-Through-The-Secret-Life-Of-Plants/master/86450
 
-	 
+
+Future changes that could be made
+
+* Communicate via I2C between the master and slaves to create variable time and speed for each leaf's 	 
