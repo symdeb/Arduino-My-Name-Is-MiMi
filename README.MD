@@ -21,10 +21,10 @@ The major challenge in this design were:
  
 The distances defined are:
 
-- Too far away  
-- Get closer
-- Too close       --- Leaves closes 
-- Just right      --- Leaves open (relax)
+- Too far away    --- Mini is very lonely
+- Get closer      --- The leaves open
+- Too close       --- Mimmi is shy and here leaves close 
+- Just right      --- Mimi introduces herself
 
 The MP3 player will play an MP3 file ONCE once a change in one of these 4 distances is detected.
 
