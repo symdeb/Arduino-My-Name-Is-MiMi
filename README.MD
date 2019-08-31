@@ -1,5 +1,5 @@
 
-# MY NAME IS MIMI
+# My Name is Mini (The secret life of plants)
 
 This was a final semester project for students in Industrial Design class for Installation Art.
 
@@ -21,9 +21,9 @@ The major challenge in this design were:
  
 The distances defined are:
 
-- Too far away    --- Mini is very lonely
-- Get closer      --- The leaves open
-- Too close       --- Mimmi is shy and here leaves close 
+- Too far away    --- Mimi is very lonely
+- Get closer      --- Mimi opens her leaves
+- Too close       --- Mimi is shy and her leaves close 
 - Just right      --- Mimi introduces herself
 
 The MP3 player will play an MP3 file ONCE once a change in one of these 4 distances is detected.
