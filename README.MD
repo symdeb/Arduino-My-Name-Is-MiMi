@@ -1,22 +1,23 @@
 
 # MY NAME IS MIMI
 
-This was a final semestor project for students in Industrial Design class for Installation Art.
+This was a final semester project for students in Industrial Design class for Installation Art.
 
-This design uses 7 Arduinos and ULN2003 motor controls. one of which is the "master" and the other slaves
-The number of slaves is unlimited as long as the output of the master can drive the inputs of the slaves.
+This design uses 7 Arduinos and ULN2003 7 motors with motor control board. One of which is the "master" and the other slaves. The number of slaves is unlimited as long as the output of the master can drive the inputs of the slaves. Each motor consumes around 500mA. The power supply should be able to power the arduino's and the motors.
 
-The slaves turn a stepper motor fully to the left or fully the right depending on the input pin.The speed is defined in the slaves code.
+The slaves turn a stepper motor fully to the left or fully the right depending on the input pin.The speed is defined in the slaves code. 
 
 The master uses a distance sensor to measure the distance of an object (here a human) in front of the
 a cabinet full of plants and 7 leaves that are controlled by the motors. 
 
-The distances defined are
+Each leaf is connected with a wire to one of the motors. when the wire is relaxes the leaf falls back into a rest position. The major challenge in this design was to reduce any friction to the wire. A too high friction causes the wire to be stuck when falling back.
+ 
+The distances defined are:
 
-- Too far away
+- Too far away  
 - Get closer
-- Too close
-- Just right
+- Too close       --- Leafes closes 
+- Just right      --- Leafes open (relax)
 
 The MP3 player will play an MP3 file ONCE once a change in one of these 4 distances is detected.
 
