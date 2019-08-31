@@ -29,9 +29,8 @@ The Arduino are powered by a 4A 9~12V power supply connected to the Arduni power
 * [uno] - Arduino Uno 
 * [speaker] - 2W or more speaker (3W recommended)
 * [dfplayer] - DFplayer Mini
-* [motor] - 5V  Stepper motor
 * [motor and board] - 28BYJ-48 and ULN2003 stepper motor board
-* [resisstor] - 2 1K resistors
+* [resistor] - 2pcs 1K resistor
 
 
 A demonstration of the design in action in included in a video (watch the video in VLC media player)
